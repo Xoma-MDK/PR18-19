@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bragaFragment.facts_1">
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="731dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Фактики часть 1"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Помимо носа, кошки могут улавливать запахи с помощью так называемого органа Якобсона, расположенного на верхнем нёбе за передними резцами. Кошка пользуется им, когда полностью сосредотачивается на каком-то особо интересном запахе, втягивая в себя воздух, слегка приподняв верхнюю губу и нос." />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="48dp"
+                android:paddingLeft="20dp"
+                android:src="@drawable/_4201_nos_usy_koshki_malogo_i_srednego_razmera_privlekatelnost_glaz_1920x12001_1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Вибрисами кошка воспринимает мельчайшие колебания воздуха и его направления. Своеобразный природный пеленгатор! Всего у кошки 24 основных вибриса, расположенных в четыре ряда с каждой стороны головы. Причем двумя верхними рядами усов кошка может управлять независимо от нижних." />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/_db3f15d0a21589aaa1b" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="200dp"
+                android:text="Одна из самых крупных пород кошек – Мейн-Кун. Коты весят от 6 до 10 кг, а кошки – от 5 до 8 кг. Самая мелкая порода кошек – Сингапурская. Коты весят около 3 кг, а кошки едва набирают 2 кило." />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
