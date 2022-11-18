@@ -24,13 +24,23 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/Facts1"
-        android:name="com.example.myapplication.ui.bragaFragment.facts_1"
+        android:name="com.example.myapplication.ui.facts1.facts_1"
         android:label="Фактики часть 1"
         tools:layout="@layout/fragment_facts_1" />
     <fragment
         android:id="@+id/Facts2"
-        android:name="com.example.myapplication.ui.braga2Fragment.facts_2"
+        android:name="com.example.myapplication.ui.facts2.facts_2"
         android:label="Фактики часть 2"
+        tools:layout="@layout/facts_2" />
+    <fragment
+        android:id="@+id/Facts3"
+        android:name="com.example.myapplication.ui.facts3.facts_3"
+        android:label="Фактики часть 3"
+        tools:layout="@layout/fragment_facts_1" />
+    <fragment
+        android:id="@+id/Facts4"
+        android:name="com.example.myapplication.ui.facts4.facts_4"
+        android:label="Фактики часть 4"
         tools:layout="@layout/facts_2" />
 
 

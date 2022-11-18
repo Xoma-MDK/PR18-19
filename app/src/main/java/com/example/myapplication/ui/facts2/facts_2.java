@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.bragaFragment;
+package com.example.myapplication.ui.facts2;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.myapplication.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link facts_1#newInstance} factory method to
+ * Use the {@link facts_2#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class facts_1 extends Fragment {
+public class facts_2 extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class facts_1 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public facts_1() {
+    public facts_2() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class facts_1 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BragaFragment.
+     * @return A new instance of fragment braga2Fragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static facts_1 newInstance(String param1, String param2) {
-        facts_1 fragment = new facts_1();
+    public static facts_2 newInstance(String param1, String param2) {
+        facts_2 fragment = new facts_2();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class facts_1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_facts_1, container, false);
+        return inflater.inflate(R.layout.facts_2, container, false);
     }
 }

@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:text="Фактики часть 2"
+                android:text="Фактики часть 3"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -34,7 +34,7 @@
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
 
-                android:src="@drawable/krasivye_kartinki_kotikov_17" />
+                android:src="@drawable/_518233316_048" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:text="Сердце кошки совершает до 140 ударов в минуту, что почти вдвое превосходит человеческое." />
+                android:text="В Англии кошек используют по назначению для охраны зернохранилищ и прочих пищевых складов, их вполне официально ставят на довольствие. Кошки также охраняют от мышей книги и другие реликвии Британского музея. А в Австрии кошке, прослужившей на охране складов несколько лет, положена пожизненная пенсия, выдаваемая продуктами: молоком, мясом или бульоном." />
 
             <ImageView
                 android:id="@+id/imageView18"
@@ -58,14 +58,14 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:text="На то, чтобы вылизать шерсть, кошка расходуется столько же воды, сколько на мочеиспускание." />
+                android:text="Во время охоты на добычу домашняя кошка может делать рывки со скоростью до 40 километров в час." />
             <ImageView
                 android:id="@+id/imageView19"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:src="@drawable/_7478da42271207e1d86" />
+                android:src="@drawable/krasivye_kartinki_kotikov_17" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-                android:text="Кошки могут различать некоторые цвета. Эксперименты показали, что кошки могут различать красный, зеленый, синий. Вот с другими цветами дело обстоит несколько хуже, то есть в оттенках серого." />
+                android:text="Средний срок жизни домашней кошки – 15 лет, в то время как у диких – от 3 до 5 лет." />
 
         </LinearLayout>
     </ScrollView>
