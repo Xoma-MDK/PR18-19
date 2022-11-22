@@ -33,7 +33,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-
+                android:scaleType="centerCrop"
                 android:src="@drawable/krasivye_kartinki_kotikov_17" />
 
             <TextView
@@ -41,7 +41,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Кошки могут издавать около 100 различных звуков. Для сравнения – собаки только около 10." />
 
             <ImageView
@@ -50,6 +53,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_4201_nos_usy_koshki_malogo_i_srednego_razmera_privlekatelnost_glaz_1920x12001_1" />
 
             <TextView
@@ -57,7 +61,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Не сажайте кошку на вегетарианскую диету. Они нуждаются в белке животного происхождения. В конце-концов, это же плотоядные животные!" />
             <ImageView
                 android:id="@+id/imageView19"
@@ -65,6 +72,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_7478da42271207e1d86" />
 
             <TextView
@@ -72,7 +80,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Кошки, если не спят, тратят треть всего времени на уход за собой." />
 
         </LinearLayout>

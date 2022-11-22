@@ -36,13 +36,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Помимо носа, кошки могут улавливать запахи с помощью так называемого органа Якобсона, расположенного на верхнем нёбе за передними резцами. Кошка пользуется им, когда полностью сосредотачивается на каком-то особо интересном запахе, втягивая в себя воздух, слегка приподняв верхнюю губу и нос." />
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
-                android:layout_marginTop="48dp"
-                android:paddingLeft="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_4201_nos_usy_koshki_malogo_i_srednego_razmera_privlekatelnost_glaz_1920x12001_1" />
 
             <TextView
@@ -50,12 +53,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Вибрисами кошка воспринимает мельчайшие колебания воздуха и его направления. Своеобразный природный пеленгатор! Всего у кошки 24 основных вибриса, расположенных в четыре ряда с каждой стороны головы. Причем двумя верхними рядами усов кошка может управлять независимо от нижних." />
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_db3f15d0a21589aaa1b" />
 
             <TextView
@@ -64,6 +72,9 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:paddingBottom="200dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:textAlignment="center"
                 android:text="Одна из самых крупных пород кошек – Мейн-Кун. Коты весят от 6 до 10 кг, а кошки – от 5 до 8 кг. Самая мелкая порода кошек – Сингапурская. Коты весят около 3 кг, а кошки едва набирают 2 кило." />
         </LinearLayout>
     </ScrollView>

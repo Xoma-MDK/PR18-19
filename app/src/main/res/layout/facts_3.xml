@@ -33,7 +33,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-
+                android:scaleType="centerCrop"
                 android:src="@drawable/_518233316_048" />
 
             <TextView
@@ -41,7 +41,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="В Англии кошек используют по назначению для охраны зернохранилищ и прочих пищевых складов, их вполне официально ставят на довольствие. Кошки также охраняют от мышей книги и другие реликвии Британского музея. А в Австрии кошке, прослужившей на охране складов несколько лет, положена пожизненная пенсия, выдаваемая продуктами: молоком, мясом или бульоном." />
 
             <ImageView
@@ -50,6 +53,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_55ac9ea476809d1edbb8fe61bad622d" />
 
             <TextView
@@ -57,7 +61,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Во время охоты на добычу домашняя кошка может делать рывки со скоростью до 40 километров в час." />
             <ImageView
                 android:id="@+id/imageView19"
@@ -65,6 +72,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/krasivye_kartinki_kotikov_17" />
 
             <TextView
@@ -72,7 +80,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Средний срок жизни домашней кошки – 15 лет, в то время как у диких – от 3 до 5 лет." />
 
         </LinearLayout>

@@ -27,7 +27,14 @@
                 android:layout_height="200dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_55ac9ea476809d1edbb8fe61bad622d" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Котик 1"
+                android:textAlignment="center">
+            </TextView>
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -35,42 +42,84 @@
                 android:layout_height="200dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_4201_nos_usy_koshki_malogo_i_srednego_razmera_privlekatelnost_glaz_1920x12001_1" />
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Котик 2"
+                android:textAlignment="center">
+            </TextView>
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_7478da42271207e1d86" />
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Котик 3"
+                android:textAlignment="center">
+            </TextView>
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_518233316_048" />
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Котик 4"
+                android:textAlignment="center">
+            </TextView>
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:src="@drawable/_db3f15d0a21589aaa1b" />
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Котик 5"
+                android:textAlignment="center">
+            </TextView>
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:src="@drawable/chat_avatar_136" />
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Котик 6"
+                android:textAlignment="center">
+            </TextView>
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="400dp"
                 android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
                 android:src="@drawable/krasivye_kartinki_kotikov_17" />
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Котик 7"
+                android:textAlignment="center">
+            </TextView>
 
         </LinearLayout>
     </ScrollView>

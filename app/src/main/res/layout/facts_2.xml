@@ -21,9 +21,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
-                android:text="Фактики часть 2"
                 android:textAlignment="center"
+                android:text="Фактики часть 2"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -33,7 +35,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
-
+                android:scaleType="centerCrop"
                 android:src="@drawable/krasivye_kartinki_kotikov_17" />
 
             <TextView
@@ -41,7 +43,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Сердце кошки совершает до 140 ударов в минуту, что почти вдвое превосходит человеческое." />
 
             <ImageView
@@ -50,6 +55,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_55ac9ea476809d1edbb8fe61bad622d" />
 
             <TextView
@@ -57,7 +63,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="На то, чтобы вылизать шерсть, кошка расходуется столько же воды, сколько на мочеиспускание." />
             <ImageView
                 android:id="@+id/imageView19"
@@ -65,6 +74,7 @@
                 android:layout_height="200dp"
                 android:paddingTop="20dp"
                 android:paddingBottom="20dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/_7478da42271207e1d86" />
 
             <TextView
@@ -72,7 +82,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
                 android:paddingBottom="20dp"
+                android:textAlignment="center"
                 android:text="Кошки могут различать некоторые цвета. Эксперименты показали, что кошки могут различать красный, зеленый, синий. Вот с другими цветами дело обстоит несколько хуже, то есть в оттенках серого." />
 
         </LinearLayout>
